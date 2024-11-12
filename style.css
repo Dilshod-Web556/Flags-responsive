@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body{
+    background-color: #202C36;
+}
+.germany{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.USA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 250px;
+
+}
+
+.USA img{
+    width: 303px;
+    object-fit: cover;
+    height: 160px;
+}
+
+.USA p{
+padding: 29px 24px;
+background: #2B3844;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.brazil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.germany img{
+    width: 264px;
+}
+
+.germany p{
+padding: 32px 94px;
+background: #2B3844;
+    width: 264px;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.brazil img{
+     width: 303px;
+    object-fit: cover;
+    height: 160px;
+}
+
+.brazil p{
+padding: 32px 94px;
+background: #2B3844;
+    width: 264px;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.Iceland img{
+     width: 303px;
+    object-fit: cover;
+    height: 160px;
+}
+
+.Iceland p{
+padding: 32px 94px;
+background: #2B3844;
+    width: 264px;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.Iceland{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.Afghanistan img{
+     width: 303px;
+    object-fit: cover;
+    height: 160px;
+}
+
+.Afghanistan p{
+padding: 32px 94px;
+background: #2B3844;
+    width: 264px;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.Afghanistan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 576px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 320px;
+    }
+}
+
+
+.boxes{
+height: 80px;
+width: 1535px;
+    background-color: #2B3844;
+}
+
+.boxes a{
+color: white;
+  font-size: 24px;
+  font-weight: 800;
+
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 900px;
+}
+
+.txt{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.box_two{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+input{
+    width: 480px;
+height: 56px;
+background-color: #2B3844;
+border: transparent;
+border-radius: 5px;
+padding-left: 50px;
+margin-bottom: 80px;
+}
+
+.pos{
+width: 20px;
+height: 20px;
+    position: relative;
+    left: 35px;
+    top: 17px;
+}
+
+.box_main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box_two_main{
+        display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.ÅlandIslands img{
+     width: 303px;
+    object-fit: cover;
+    height: 160px;
+}
+
+.ÅlandIslands p{
+padding: 32px 70px;
+background: #2B3844;
+    width: 264px;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.ÅlandIslands{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.Albania img{
+     width: 303px;
+    object-fit: cover;
+    height: 160px;
+}
+
+.Albania p{
+padding: 32px 94px;
+background: #2B3844;
+    width: 264px;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.Albania{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.Algeria img{
+     width: 303px;
+    object-fit: cover;
+    height: 160px;
+}
+
+.Algeria p{
+padding: 32px 94px;
+background: #2B3844;
+    width: 264px;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.Algeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
